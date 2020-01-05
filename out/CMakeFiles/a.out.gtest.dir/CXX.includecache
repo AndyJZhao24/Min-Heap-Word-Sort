@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../app/proj5.hpp
+../app/minheap.hpp
 iostream
 -
 string
@@ -14,17 +14,17 @@ string
 vector
 -
 
-/home/ics46b/projects/proj5/app/proj5.cpp
+/home/ics46b/projects/proj5/app/minheap.cpp
 iostream
 -
 sstream
 -
 string
 -
-proj5.hpp
-/home/ics46b/projects/proj5/app/proj5.hpp
+minheap.hpp
+/home/ics46b/projects/proj5/app/minheap.hpp
 
-/home/ics46b/projects/proj5/app/proj5.hpp
+/home/ics46b/projects/proj5/app/minheap.hpp
 iostream
 -
 string
@@ -39,8 +39,8 @@ gtest/gtest.h
 /home/ics46b/projects/proj5/gtest/tests1.cpp
 gtest/gtest.h
 /home/ics46b/projects/proj5/gtest/gtest/gtest.h
-proj5.hpp
-/home/ics46b/projects/proj5/gtest/proj5.hpp
+minheap.hpp
+/home/ics46b/projects/proj5/gtest/minheap.hpp
 string
 -
 fstream

@@ -1,12 +1,9 @@
 #include "gtest/gtest.h"
-#include "proj5.hpp"
+#include "minheap.hpp"
 #include <string>
 #include <fstream>
 namespace{
 
-
-// NOTE:  these are not intended as exhaustive tests.
-// This should get you started testing.
 
 TEST(HeapTests, Bedpost)
 {
@@ -15,7 +12,7 @@ TEST(HeapTests, Bedpost)
 
 TEST(HeapTests, Pinhead)
 {
-	EXPECT_TRUE(! isMinHeap("pinhead")); // it's actually a max heap.
+	EXPECT_TRUE(! isMinHeap("pinhead")); 
 }
 
 
@@ -25,7 +22,7 @@ TEST(HeapTests, Pinhead)
 TEST(Sorting, Sort1)
 {
 	std::vector<std::string> vec = {"bedpost", "adjusts", "adjourns", "despot"};
-	doSomeSort(vec);
+	bubbleSort(vec);
 
 	std::vector<std::string> expected = {"adjourns", "adjusts", "bedpost", "despot"};
 
@@ -41,7 +38,7 @@ TEST(Collection, SetOfHeaps)
 
 	std::istringstream stream( someWords );
 
-	std::vector<std::string> vec = findHeaps(stream);
+	std::vector<std::string> vec = findMinHeaps(stream);
 	
 	std::vector<std::string> expected = {"adjourns", "adjusts", "bedpost", "despot"};
 

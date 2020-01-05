@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/ics46b/projects/proj5/app/proj5.cpp
+/home/ics46b/projects/proj5/app/minheap.cpp
 iostream
 -
 sstream
 -
 string
 -
-proj5.hpp
-/home/ics46b/projects/proj5/app/proj5.hpp
+minheap.hpp
+/home/ics46b/projects/proj5/app/minheap.hpp
 
-/home/ics46b/projects/proj5/app/proj5.hpp
+/home/ics46b/projects/proj5/app/minheap.hpp
 iostream
 -
 string

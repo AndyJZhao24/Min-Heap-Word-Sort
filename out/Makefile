@@ -176,38 +176,38 @@ app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-app/proj5.o: app/proj5.cpp.o
+app/minheap.o: app/minheap.cpp.o
 
-.PHONY : app/proj5.o
+.PHONY : app/minheap.o
 
 # target to build an object file
-app/proj5.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj5.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj5.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj5.cpp.o
-.PHONY : app/proj5.cpp.o
+app/minheap.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/minheap.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/minheap.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/minheap.cpp.o
+.PHONY : app/minheap.cpp.o
 
-app/proj5.i: app/proj5.cpp.i
+app/minheap.i: app/minheap.cpp.i
 
-.PHONY : app/proj5.i
+.PHONY : app/minheap.i
 
 # target to preprocess a source file
-app/proj5.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj5.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj5.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj5.cpp.i
-.PHONY : app/proj5.cpp.i
+app/minheap.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/minheap.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/minheap.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/minheap.cpp.i
+.PHONY : app/minheap.cpp.i
 
-app/proj5.s: app/proj5.cpp.s
+app/minheap.s: app/minheap.cpp.s
 
-.PHONY : app/proj5.s
+.PHONY : app/minheap.s
 
 # target to generate assembly for a file
-app/proj5.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj5.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj5.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj5.cpp.s
-.PHONY : app/proj5.cpp.s
+app/minheap.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/minheap.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/minheap.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/minheap.cpp.s
+.PHONY : app/minheap.cpp.s
 
 exp/expmain.o: exp/expmain.cpp.o
 
@@ -304,9 +304,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... app/proj5.o"
-	@echo "... app/proj5.i"
-	@echo "... app/proj5.s"
+	@echo "... app/minheap.o"
+	@echo "... app/minheap.i"
+	@echo "... app/minheap.s"
 	@echo "... exp/expmain.o"
 	@echo "... exp/expmain.i"
 	@echo "... exp/expmain.s"

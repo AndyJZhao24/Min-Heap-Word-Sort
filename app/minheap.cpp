@@ -1,9 +1,7 @@
-//proj5.cpp
-
 #include <iostream>
 #include <sstream>
 #include <string>
-#include "proj5.hpp"
+#include "minheap.hpp"
 
 bool isMinHeap(std::string s)
 {
@@ -30,7 +28,7 @@ bool isMinHeap(std::string s)
 }
 
 
-void doSomeSort(std::vector<std::string> & vec)
+void bubbleSort(std::vector<std::string> & vec)
 {
 	//BubbleSort
     for(int i = 0; i < vec.size()-1; i++) //Loop until size - 1
@@ -49,7 +47,7 @@ void doSomeSort(std::vector<std::string> & vec)
 }
 
 
-std::vector<std::string> findHeaps(std::istream & in)
+std::vector<std::string> findMinHeaps(std::istream & in)
 {
 	std::vector<std::string> min_heap_vec;
 	std::string line, word;
@@ -66,6 +64,6 @@ std::vector<std::string> findHeaps(std::istream & in)
 		}
 	}
 
-	doSomeSort(min_heap_vec);
+	bubbleSort(min_heap_vec);
 	return min_heap_vec;
 }
